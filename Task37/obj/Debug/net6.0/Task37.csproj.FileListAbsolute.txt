@@ -3,3 +3,13 @@ C:\Users\Пользователь\Desktop\CsharpPract5\Task37\obj\Debug\net6.0\T
 C:\Users\Пользователь\Desktop\CsharpPract5\Task37\obj\Debug\net6.0\Task37.AssemblyInfoInputs.cache
 C:\Users\Пользователь\Desktop\CsharpPract5\Task37\obj\Debug\net6.0\Task37.AssemblyInfo.cs
 C:\Users\Пользователь\Desktop\CsharpPract5\Task37\obj\Debug\net6.0\Task37.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\Desktop\CsharpPract5\Task37\bin\Debug\net6.0\Task37.exe
+C:\Users\Пользователь\Desktop\CsharpPract5\Task37\bin\Debug\net6.0\Task37.deps.json
+C:\Users\Пользователь\Desktop\CsharpPract5\Task37\bin\Debug\net6.0\Task37.runtimeconfig.json
+C:\Users\Пользователь\Desktop\CsharpPract5\Task37\bin\Debug\net6.0\Task37.dll
+C:\Users\Пользователь\Desktop\CsharpPract5\Task37\bin\Debug\net6.0\Task37.pdb
+C:\Users\Пользователь\Desktop\CsharpPract5\Task37\obj\Debug\net6.0\Task37.dll
+C:\Users\Пользователь\Desktop\CsharpPract5\Task37\obj\Debug\net6.0\refint\Task37.dll
+C:\Users\Пользователь\Desktop\CsharpPract5\Task37\obj\Debug\net6.0\Task37.pdb
+C:\Users\Пользователь\Desktop\CsharpPract5\Task37\obj\Debug\net6.0\Task37.genruntimeconfig.cache
+C:\Users\Пользователь\Desktop\CsharpPract5\Task37\obj\Debug\net6.0\ref\Task37.dll

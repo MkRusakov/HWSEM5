@@ -12,24 +12,54 @@ void PrintArray (int[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
-        Console.Write($"{array[i]} ");
+        Console.WriteLine($"{array[i]} ");
     }
 }
-void newMassiveIncrease (int[] array)
+int[] newMassive (int[] array)
 {
-    if (array.Length % 2 = 0) 
-        int[] newMassive = new Array(array.Length/2);
-    else 
-        int[] newMassive = new Array(array.Length/2+1);
-    for (int i = 0; i < newMassive.Length; i++)
+    if (array.Length % 2 == 0) 
     {
-        for (int j = newMassive.Length; j < newMassive.Length/2; j--)
-        {
-            newMassive[i] = array[i]*array[j];
-        }
+        int len = array.Length/2;
+        int[] newMass = new int[len];
+        return newMass;
     }
-    return Console.WriteLine(newMassive);
+    else
+    {
+        int len = array.Length/2+1;
+        int[] newMass = new int[len];
+        return newMass;
+    }
 }
-int[] myArr = CreateArray(9,1,8);
+
+ int[] increase (int[] array, int[] newMassive) //Сижу уже третий час над этой задачей и не понимаю, почему с какими то цифрами код работает, а с какими то нет =(
+ {
+    int j = array.Length-1;
+    
+        if (newMassive.Length%2-1==0)
+        {
+            for (int i = 0; i < newMassive.Length; i++)
+            {
+                newMassive[i] = array[i]*array[j];
+                j--;
+            }
+            return newMassive;
+        }    
+       else 
+        {
+            for (int i = 0; i < array.Length/2; i++)
+            {
+                newMassive[i] = array[i]*array[j];
+                j--;
+            }
+            newMassive[newMassive.Length-1] = array[array.Length/2];
+            return newMassive;
+        }
+    
+ }
+int[] myArr = CreateArray(5,1,8);
 PrintArray(myArr);
-newMassiveIncrease(myArr);
+int[] newM = newMassive(myArr);
+increase(myArr, newM);
+Console.WriteLine();
+PrintArray(newM);
+
