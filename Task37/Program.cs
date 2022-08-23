@@ -31,11 +31,11 @@ int[] newMassive (int[] array)
     }
 }
 
- int[] increase (int[] array, int[] newMassive) //Сижу уже третий час над этой задачей и не понимаю, почему с какими то цифрами код работает, а с какими то нет =(
+ int[] increase (int[] array, int[] newMassive)
  {
     int j = array.Length-1;
     
-        if (newMassive.Length%2-1==0)
+        if (newMassive.Length%2==0)
         {
             for (int i = 0; i < newMassive.Length; i++)
             {
@@ -46,7 +46,7 @@ int[] newMassive (int[] array)
         }    
        else 
         {
-            for (int i = 0; i < array.Length/2; i++)
+            for (int i = 0; i < newMassive.Length-1; i++)
             {
                 newMassive[i] = array[i]*array[j];
                 j--;
@@ -56,7 +56,7 @@ int[] newMassive (int[] array)
         }
     
  }
-int[] myArr = CreateArray(5,1,8);
+int[] myArr = CreateArray(9,1,8);
 PrintArray(myArr);
 int[] newM = newMassive(myArr);
 increase(myArr, newM);
